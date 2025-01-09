@@ -1,0 +1,164 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    background-color: #eef2f7;
+    color: #333;
+}
+
+.container {
+    width: 75%;
+    margin: 30px auto;
+    padding: 25px;
+    background: #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    font-size: 16px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #7f8c8d;
+    margin: 0;
+}
+
+.personal-info {
+    margin-top: 30px;
+}
+
+.personal-info h2 {
+    color: #34495e;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.personal-info h2::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #3498db;
+    margin-top: 5px;
+    border-radius: 2px;
+}
+
+.personal-info .info-items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.personal-info .info-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1em;
+    color: #7f8c8d;
+}
+
+.personal-info .info-item .label {
+    font-weight: bold;
+    color: #34495e;
+    width: 100px;
+}
+
+.personal-info .info-item .value {
+    color: #7f8c8d;
+    flex-grow: 1;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #34495e;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+h2::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #3498db;
+    margin-top: 5px;
+    border-radius: 2px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-item {
+    background: #3498db;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.experience-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+}
+
+.experience-item h3 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #2c3e50;
+}
+
+.experience-item .company-intro {
+    margin-top: 5px;
+    font-size: 0.95em;
+    color: #7f8c8d;
+    font-style: italic;
+}
+
+.experience-item .project {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.experience-item .project .dates {
+    width: 25%;
+    font-size: 0.85em;
+    color: #7f8c8d;
+}
+
+.experience-item .project .description {
+    width: 75%;
+    font-size: 1em;
+    color: #34495e;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
